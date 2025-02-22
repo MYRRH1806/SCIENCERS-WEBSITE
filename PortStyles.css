@@ -1,0 +1,41 @@
+.main{
+    text-align:center;
+    background: linear-gradient(to right, #f32170, #ff6b08,#cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+}
+input[type="text"] {
+    border: 2px solid rgb(255, 116, 188);
+    padding: 5px;
+}
+input[type="gmail"] {
+    border: 2px solid rgb(255, 116, 188);
+    padding: 5px;
+}
+
+.btn {
+    background-color: rgb(255, 118, 221)(192, 192, 255);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(120, 45, 79);
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(52, 235, 255);
+    text-align: center;
+    padding: 10px;
+}
+@media (max-width: 600px) {
+    body {
+        background-color: rgb(38, 70, 88);
+    }rgb(211, 211, 211)rgb(39, 86, 95)
+}
